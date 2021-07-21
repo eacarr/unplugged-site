@@ -86,6 +86,92 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* --------------- Base Header -- Footer Styles------------ */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Header styles */
+
+header {
+  background-color: #202322;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+header figure {
+  border-top: #202322;
+}
+
+.header-divider {
+}
+
+header nav {
+}
+
+/* --------------- Mobile Styles -- Homepage------------ */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.content-wrapper {
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.form-description {
+}
+
+.form {
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.fontawesome-icon {
+}
+
+.features-item-description {
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +346,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
