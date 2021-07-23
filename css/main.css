@@ -93,12 +93,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 
 /* Header styles */
 
 header {
+  padding: 15px 0;
   background-color: #202322;
 }
 
@@ -107,28 +108,44 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  margin: 0;
 }
 
 header figure {
-  border-top: #202322;
 }
 
 .header-divider {
+  width: 100%;
 }
 
 header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 60%;
 }
 
-/* --------------- Mobile Styles -- Homepage------------ */
-
-.hero-area {
+header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
 }
 
+/* --------------- Mobile Styles -- Homepage------------ */
+
+.hero-area {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 500px;
+}
+
 .content-wrapper {
+  width: 90%;
+  padding: 0 20px;
 }
 
 aside {
@@ -136,6 +153,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  height: 330px;
+  background: #527158;
 }
 
 .form-description {
@@ -149,12 +168,25 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  height: 1450px;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features article {
+  width: 60%;
 }
 
 .fontawesome-icon {
 }
 
-.features-item-description {
+.features .features-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
 .reviews {
@@ -162,17 +194,90 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  height: 600px;
 }
 
-/* Footer */
+.reviews h2 {
+  width: 60%;
+}
+.reviews article {
+  width: 100%;
+}
 
-footer {
+/* --------------- Mobile Styles -- ABOUT------------ */
+
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
 }
 
+.mission-content {
+}
+
+.map {
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 340px;
+}
+
+.contact-content {
+}
+
+/* --------------- Mobile Styles -- FAQ------------ */
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 0 20px;
+}
+/* Footer */
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-content {
+}
+.contact {
+}
+
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.copyright {
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
