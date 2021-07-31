@@ -117,6 +117,7 @@ header .content-wrapper {
 }
 
 header figure {
+  margin: 0;
 }
 
 .header-divider {
@@ -140,6 +141,7 @@ header nav ul {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #e2e3ed;
+  padding: 0;
 }
 
 /* --------------- Mobile Styles -- Homepage------------ */
@@ -506,10 +508,39 @@ footer .copyright {
 
 @media (min-width: 1200px) {
   .content-wrapper {
-    width: 85%;
-    padding: 0 10%;
+    max-width: 960px;
+  }
+  .hero-area .content-wrapper {
+    margin: 50px 0;
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+    padding-left: 80px;
+  }
+  .features article {
+    flex-basis: 30%;
+  }
+
+  /* *********ABOUT********* */
+
+  .mission h1 {
+    margin: 0;
+  }
+  .contact-section h1 {
+    margin: 0;
+  }
+
+  /* ***********FAQ********** */
+
+  .faq {
+    margin: 50px 0;
+  }
+  .faq h1 {
+    width: 75%;
   }
 }
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
