@@ -117,13 +117,13 @@ a {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 2.3em;
+  font-size: 1.8em;
 }
 
 h3 {
@@ -133,14 +133,14 @@ h3 {
 }
 
 p {
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 1em;
 }
 
 img {
 }
 
 figure {
+  margin: 0;
 }
 
 address {
@@ -203,10 +203,23 @@ header nav ul {
 
 /* --------------- Mobile Styles -- Homepage------------ */
 
+p {
+  font-size: 1.2em;
+}
+h2 {
+  font-size: 2em;
+}
 .hero-area {
+  background: url("../img/jake-melara-unsplash.png") center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  height: 500px;
+}
+.hero-area h1 {
+  margin: 0;
+  padding: 0;
 }
 
 aside {
@@ -247,6 +260,8 @@ aside .form {
 }
 
 .features {
+  background: url("../img/rawpixel-unsplash.png") center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -276,6 +291,9 @@ aside .form {
   flex-flow: row wrap;
 }
 
+article img {
+  width: 100%;
+}
 .reviews {
   display: flex;
   justify-content: center;
@@ -496,6 +514,16 @@ footer .copyright {
     display: none;
   }
   /* HERO AREA */
+
+  .hero-area .content-wrapper {
+    height: 500px;
+  }
+  .hero-area .content-wrapper h1 {
+    width: 71%;
+    padding: 0;
+    margin: 0;
+  }
+
   /* ASIDE */
 
   aside .content-wrapper {
@@ -531,9 +559,18 @@ footer .copyright {
 
   .reviews article {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
-  .reviews article div {
+  .reviews h2 {
+    width: 65%;
+    margin: 0;
+  }
+  .reviews h3 {
+    margin: 0;
+  }
+  .reviews article div,
+  .reviews article figure {
     width: 49%;
   }
 
@@ -599,8 +636,8 @@ footer .copyright {
   .content-wrapper {
     max-width: 80%;
   }
-  .hero-area h1 {
-    width: 700px;
+  .hero-area .content-wrapper h1 {
+    font-size: 4em;
   }
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
