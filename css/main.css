@@ -296,7 +296,7 @@ aside .form {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -416,6 +416,8 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 200px;
+  font-size: 1.12em;
 }
 
 footer .copyright {
@@ -718,6 +720,11 @@ footer .copyright {
     width: 90%;
     margin: 0;
   }
+
+  .features .features-item-description {
+    width: 65%;
+  }
+
   .features article {
     flex-basis: 30%;
   }
