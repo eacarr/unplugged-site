@@ -103,6 +103,7 @@ body {
 
 ul a {
   font-size: 18px;
+  font-weight: 700;
   color: #e2e3ed;
   text-transform: uppercase;
   text-decoration: none;
@@ -527,7 +528,6 @@ footer .copyright {
   .content-wrapper {
     max-width: 640px;
     margin: 85px 0;
-
   }
   /* HEADER */
   header {
