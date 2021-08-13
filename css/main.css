@@ -525,13 +525,14 @@ footer .copyright {
     font-size: 1em;
   }
   .content-wrapper {
-    max-width: 83%;
+    max-width: 640px;
     margin: 85px 0;
+
   }
   /* HEADER */
   header {
     justify-content: space-around;
-    padding: 33px 0;
+    padding: 15px 0;
   }
   header .content-wrapper {
     width: 100%;
@@ -684,7 +685,7 @@ footer .copyright {
 @media (min-width: 1200px) {
   .content-wrapper {
     margin: 50px 0;
-    max-width: 80%;
+    max-width: 960px;
   }
   h1 {
     font-size: 3.75em;
@@ -698,6 +699,9 @@ footer .copyright {
   p,
   address {
     font-size: 1.1em;
+  }
+  header figure {
+    width: 290px;
   }
 
   .hero-area {
@@ -744,7 +748,7 @@ footer .copyright {
 
   .mission h2 {
     font-size: 3em;
-    width: 85%;
+    width: 95%;
     margin: 0;
   }
 
