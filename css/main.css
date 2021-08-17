@@ -411,13 +411,15 @@ footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 200px;
   font-size: 1.12em;
 }
 
@@ -606,7 +608,7 @@ footer .copyright {
     justify-content: space-between;
   }
   .reviews h2 {
-    width: 65%;
+    width: 80%;
     margin-top: 0;
   }
   .reviews h3 {
